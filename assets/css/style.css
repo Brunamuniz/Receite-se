@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header, .header a{
+    display: flex;
+    justify-content: end;
+    background-color: #0e5e67;
+    color: #fff1e6;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration:none; 
+    padding: 10px;
+
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/imagem/capa.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.home h1 {
+    height: 100px;
+    font-size: 60px;
+}
+
+.home h2 {
+    font-size: 35px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    color: #fff1e6;
+    text-shadow: 1px 1px 3px #4d070b;
+    gap: 30px;
+    margin-top: -450px;
+    padding-bottom: 150px;
+}
+
+.Text spam {
+   color: #c81d25;
+}
+
+.home button{
+    width: 200px;
+    height: 40px;
+    background-color: #c81d25;
+    color: #fff1e6;
+    text-shadow: 1px 1px 3px #4d070b;
+    border-color: transparent;
+    border-radius: 20px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 23px;
+}
+
+.imgs{
+    display: flex;
+}
+
+.rigth{
+    display: flex;
+    flex-direction: column;
+}
+
+.food{
+    width: 230px;
+    height: 230px;
+    padding-top: 400px;
+    padding-left: 900px;
+}

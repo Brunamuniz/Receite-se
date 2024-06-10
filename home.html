@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receite-se</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/Recipes.css">
+        <link rel="stylesheet" href="assets/css/myRecipes.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <a href="/cadastro.html">Cadastro</a>
+            <a href="/login.html">Login</a>
+        </div>
+        <div class="home"> 
+            <div class="imgs">
+                <img src="/assets/imagem/food.png" class="food"/>
+            </div>
+            <div class="element">
+                <div class="Text">
+                    <h1>Descubra ou guarde suas receitas favoritas</h1>
+                    <h2>O <span>receite-se</span> te ajuda a selecionar e encontrar as melhores receitas para você</h2>
+                </div>
+                <div class="buttons">
+                    <a>
+                        <button>Ver Receitas</button>
+                    </a>
+                    <a href="/home.html">
+                        <button>Minhas Receitas</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="Food">
+            <div class="View">
+                <h3>Ver Receitas</h3>
+                <div class="conteiner"></div>
+            </div>
+        </div>
+        <div class="myFood">
+            <h3>Minhas Receitas</h3>
+            <div class="conteiner2">
+                <form id="formReceita">
+                    <label for="nome">Nome da Receita:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="ingredientes">Ingredientes:</label><br>
+                    <textarea id="ingredientes" name="ingredientes"></textarea><br>
+                    <label for="passoAPasso">Passo a Passo:</label><br>
+                    <textarea id="passoAPasso" name="passoAPasso"></textarea><br><br>
+                    <button type="submit">Adicionar Receita</button>
+                </form>
+            </div>
+            <h3>Lista de Receitas</h3>
+            <div class="conteiner3">
+                <ul id="listaReceitas"></ul>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
